@@ -9,18 +9,32 @@
   <body>
     <h1>01 - Form</h1>
     <form action="/submit">
-      <span>Name</span>
-      <input type="text" />
+      <label for="name"> Name
+      </label>
+      <input type="text" id="name"/>
       <br /><br />
       <label>
         Email
         <input type="text" />
       </label>
       <br /><br />
-      <span>Favorite Character</span>
-      <div><input type="radio" id="spongebob" />Spongebob</div>
-      <div><input type="radio" id="patrick" />Patrick</div>
-      <div><input type="radio" id="sandy" />Sandy</div>
+      <span>Please Select Your Favorite Character</span>
+      <!-- In order to group the radio buttons together, 
+        -->
+      <fieldset>
+      <div>
+        <input type="radio" id="spongebob" name="character"/>
+        <label for="spongebob"> Spongebob</label>
+      </div>
+      <div>
+        <input type="radio" id="patrick" name="character"/>
+        <label for="patrick">Patrick</label>
+      </div>
+      <div>
+        <input type="radio" id="sandy" name="character"/>
+        <label for="sandy">Sandy</label>
+      </div>
+      </fieldset>
       <br />
       <button>Submit</button>
     </form>

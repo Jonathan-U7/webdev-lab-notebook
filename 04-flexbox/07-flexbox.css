@@ -4,20 +4,53 @@
 
 /* Flex Container 1 */
 
+.flex-container-1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: block;
+  justify-content: center;
+}
+ 
 /* Flex Container 2 */
 
-/* Flex Container 3 */
+.flex-container-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: right;
+}
+ 
 
-/* use height: 400px; on the container */
+/* Flex Container 3 */
+.flex-container-3 {
+  height: 400px;
+  display: inline-grid;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  justify-content: right;
+  /* use height: 400px; on the container */
+}
 
 /* Flex Container 4 */
+.flex-container-4 {
+  display: inline-block;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: space-evenly;
+}
 
 /* Flex Container 5 */
-
+.flex-container-5 {
+  display: block-flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 /* Flex Container 6 */
 
 .flex-container-6 .flex-item {
   width: 400px;
+  display: grid;
 }
 
 /* use height: 300px; on the container */

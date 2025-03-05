@@ -8,12 +8,72 @@
 ## <a id="ex01"></a> Exercise 01 - Lists
 
 Recreate the snapshot below, using ordered and unordered lists and an anchor element for navigation.
+<!--
+command + question mark creates a comment
+<ul> are unordered lists
+<ol> are ordered lists
+<a> anchored element
+    <a href = "UR_LINK.COM"> HOW_LINK_LOOKS_TO_USER </a>
+-->
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>Grocery List </h1>
+        <ol>
+            <li>Eggs</li>
+            <li>Milk
+                <ul>2%<ul>
+                <ul>Almond Milk</ul>
+                <ul>Coconut Milk</ul>
+            </li>
+            <li>Cheese</li>
+            <li>Pasta</li>
+            <li>Oatmeal</li>
+            <li>Apples</li>
+            <li><a href="#">Cleaning Supplies</a></li>
+        </ol>
+    </main>
+</body>
+</html>
+<!--
+Only question about my code so far:
+Does the new unordered list for milk
+include a tab for spacing purposes? 
+-->
 <img src="../_assets/html-exercises/html-ex01-lists.png" height=250 alt="screenshot of a recipe to build using list elements">
 
 ## <a id="ex02"></a> Exercise 02 - Images
 
 Recreate the snapshot below, using two images (200x150) from [placekitten](http://placekitten.com/) and [placepuppy](https://place-puppy.com/). Alternatively, if those placeholder image sites are not available, you can use [placebear](https://placebear.com/) or another site that provides placeholder images. Make sure you add captions below the image using `figure` and `figcaption`. Every non-decorate image should have an "alt" attribute describing the contents of the image.
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Images Example</title>
+  </head>
+  <body>
+    <main>
+        <figure>
+            <img src = "http://placekitten.com/" alt = "kitten with red background">
+            <figcaption>kittens rule!</figcaption>
+        </figure>
+        <figure>
+            <img src = "https://place-puppy.com/" alt="black puppy sitting in grass">
+            <figcaption>puppies rule!</figcaption>
+        </figure>
+    </main>
+  </body>
+</html>
 
 <img src="../_assets/html-exercises/html-ex02-images.png" height=200 alt="screenshot of a page with figure and img elements">
 
