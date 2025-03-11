@@ -9,18 +9,40 @@
   color: var(--white);
 }
 
+.main {
+  margin-top: 80px;
+}
+
 .static {
   background-color: var(--darkviolet);
+  position: static;
+  height: 400px;
+  width: 300px;
 }
 
 .relative {
   background-color: var(--purple);
+  position: relative;
+  left: 310px;
+  height: 400px; 
+  width: 300px;
+  top: -400px;
 }
 
 .absolute {
   background-color: var(--maroon);
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  position: absolute;
+  height: 70px;
 }
 
 .fixed {
   background-color: var(--darkgolden);
+  bottom: 0px;
+  left: 0px;
+  position: fixed;
+  height: 70px;
+  width: 100%;
 }

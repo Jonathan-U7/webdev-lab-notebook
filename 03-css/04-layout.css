@@ -18,16 +18,22 @@ body {
   background-color: var(--blue);
 }
 
+.header h1 {
+  text-align:left;
+}
+
 .section {
-  display: inline-block;
-  width: 75%;
+  flex: 3;
   height: 300px;
   background-color: var(--orange);
 }
 
 .aside {
-  float: right;
-  width: 25%;
+  flex: 1;
   height: 300px;
   background-color: var(--gold);
+}
+.container {
+  display: flex;
+  height: 300px;
 }
