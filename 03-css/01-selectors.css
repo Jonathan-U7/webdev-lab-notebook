@@ -6,16 +6,43 @@
   --royalblue: #4169e1;
   --teal: #008080;
   --violet: #9400d3;
+  --lightgreen: #00ff2f;
+  --lightblue: #00d5ff; 
 }
 
 /* Use attribute selectors for the first part of the exercise */
-
-li[class] {
-  color: var(--red);
+li[id] {
+  color: var(--lightblue);
 }
+li[class] {
+  color: var(--lightgreen);
+}
+li[class$="g"] {
+  color: var(--magenta);
+}
+li[class$="y"] {
+  color: var(--royalblue);
+}
+li[class~="cat"] {
+  color: var(--royalblue);
+}
+
+
 
 /* Use descendant, child, and sibling selectors for the second part */
 
-section li {
-  color: var(--green);
+.list-food > ol > li:nth-child(3) {
+  color: var(--royalblue)
+}
+
+.list-food > ol > li:nth-child(even) {
+  color: var(--darkmagenta)
+}
+
+ol > li {
+  color: var(--lightgreen)
+}
+
+.list-cleaning > li{
+  color: var(--lightgreen)
 }
