@@ -6,6 +6,18 @@
   grid-area: article;
 }
 
+.aside {
+  grid-area: aside;
+}
+
+.section { 
+  grid-area: section;
+}
+
+.footer {
+  grid-area: footer;
+}
+
 .grid-container {
   display: grid;
   height: 97vh;

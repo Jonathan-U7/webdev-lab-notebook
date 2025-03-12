@@ -1,5 +1,7 @@
 /* Specificity Exercise */
 
+/* Answers were done within the markdown file */
+
 nav .list-item > a {
   color: var(--purple);
 }
